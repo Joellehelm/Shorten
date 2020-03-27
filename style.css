@@ -1,0 +1,493 @@
+.navBar {
+    margin-top: 50px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    font-family: Poppins;
+    color: hsl(257, 7%, 63%)
+}
+
+body {
+    margin: 0;
+}
+
+.navLogo {
+    margin-left: 165px;
+    background-image: url('logo.svg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.navLinks {
+    grid-column: 2/5;
+    margin-top: 2px;
+    margin-left: 130px;
+    font-weight: 700;
+    
+}
+
+.navLinks a {
+    margin-right: 30px;
+}
+
+.navLinks a:hover {
+    color: hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+
+
+.logSign {
+    grid-column: 5/6;
+    margin-right: 165px;
+    margin-top: 2px;
+}
+
+.logSign a {
+    margin-left: 30px;
+}
+
+.logSign a:hover {
+    color: hsl(257, 27%, 26%);
+    cursor: pointer;
+}
+
+.signBubble {
+    font-weight: 700;
+    color: white !important;
+    background-color: hsl(180, 66%, 49%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
+.signBubble:hover {
+    background-color:hsl(180, 66%, 49%, 70%);
+}
+
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+
+.headerPic {
+    background-image: url('illustration-working.svg');
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: -10px;
+}
+
+
+.headerWords {
+    margin-left: 165px;
+}
+
+
+.largeWords {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 70px;
+    height: 20px;
+    color: hsl(255, 11%, 22%)
+}
+
+.smallWords {
+    color: hsl(257, 7%, 63%);
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 80px;
+    
+}
+
+.headerButton {
+    margin-top: 30px;
+    font-size: 18px;
+    color: white !important;
+    background-color: hsl(180, 66%, 49%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    width: 105px;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+.headerButton:hover {
+    cursor: pointer;
+    background-color:hsl(180, 66%, 49%, 70%);
+}
+
+.shortenBar {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-image: url(bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    margin-left: 165px;
+    margin-right: 165px;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.shortenBar input {
+    height: 60px !important;
+    margin-left: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    outline: none;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+.submitBtn {
+    font-weight: 700;
+    text-align: center;
+    color: white !important;
+    background-color: hsl(180, 66%, 49%);
+    border-radius: 10px;
+    font-family: Poppins;
+    width: 180px;
+    height: 60px;
+    margin-top: 12px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.submitBtn:hover {
+    background-color:hsl(180, 58%, 66%);
+    cursor: pointer;
+}
+
+.shortenBar input {
+    margin-top: 12px;
+    margin-left: 65px;
+    width: 780px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.statsContainer {
+    margin-top: 135px;
+    position: absolute;
+    min-height: 1135px;
+    left: 0;
+    background-color: #f0f1f6;
+    width: 100vw;
+    text-align: center;
+}
+
+
+.titleBox {
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 100px;
+}
+
+.titleBox h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -5px;
+    color: hsl(260, 8%, 14%);
+    
+}
+
+.titleBox p {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: hsl(257, 7%, 63%);
+    height: 18px;
+   
+}
+
+.boxesContainer {
+    text-align: left;
+    margin-right: 165px;
+    margin-left: 165px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.iconBubble {
+    text-align: center;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    margin-left: 30px;
+    margin-top: -45px;
+   
+}
+
+.iconBubble img {
+    margin-top: 20px;
+
+}
+
+.statBox {
+    background-color: white;
+    border-radius: 5px;
+    height: 260px;
+}
+
+.statBox h3 {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(260, 8%, 14%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.statBox p {
+    font-family: Poppins;
+    color: hsl(257, 7%, 63%);
+ 
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+
+.second {
+    margin-top: 50px;
+}
+
+
+.third {
+    margin-top: 100px;
+}
+
+
+.boxLine {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 8px;
+    margin-top: -195px;
+    background-color: hsl(180, 66%, 49%);
+}
+
+
+.bottomBanner {
+    background: url(bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-top: 325px;
+    background-color: hsl(257, 25%, 26%);
+}
+
+
+
+.bottomTitle {
+    padding-top: 62px;
+    font-family: poppins;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+
+
+.bottomButton {
+    
+    font-size: 18px;
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    width: 125px;
+    font-weight: 700;
+    font-family: Poppins;
+    margin-left: 625px;
+    margin-top: -23px;
+}
+
+.bottomButton:hover {
+    background-color:hsl(180, 58%, 66%);
+    cursor: pointer;
+}
+
+.footer {
+
+    height: 307px;
+    background-color: hsl(260, 8%, 14%);
+}
+
+.footerContainer {
+    margin-left: 165px;
+    margin-right: 165px;
+    padding-top: 65px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 360px 150px 150px 150px 200px;
+}
+
+.whiteLogo {
+    filter: brightness(0%) invert(100%);
+}
+
+.logoBox {
+    text-align: left;
+}
+
+
+.linkBox {
+    font-size: 15px;
+    font-family: Poppins;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.boldLink {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.greyLink {
+   font-weight: 400;
+    margin-top: -10px;
+    color: hsl(0, 0%, 75%);
+}
+
+.greyLink:hover {
+    color: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
+
+.socialBox {
+    
+    text-align: left;
+   
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    fill: hsl(180, 66%, 49%);
+   
+}
+
+
+.colorRed::placeholder {
+    color: hsl(0, 87%, 67%);
+}
+
+.colorRed {
+    border: 2px solid hsl(0, 87%, 67%);
+}
+
+
+
+.errorMessage {
+    z-index: 5;
+    position: relative;
+    float: left;
+    margin-left: 232px;
+    margin-top: 170px;
+    color: hsl(0, 87%, 67%);
+    font-family: Poppins;
+    font-style: italic;
+    visibility: hidden;
+}
+
+
+.linkList {
+    position: relative;
+    margin-top: 100px;
+    overflow-y: scroll;
+    height: 270px;
+    max-height: 270px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+
+.linkList::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.linkList::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid #f0f1f6;; /* should match background, can't be transparent */
+    background-color: hsl(257, 7%, 63%);
+}
+
+.linkContainer {
+
+    font-family: Poppins;
+    grid-gap: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+}
+
+.oldLinkSpot {
+    
+    font-size: 20px;
+    color: hsl(257, 27%, 26%);
+    margin-left: 50px;
+    white-space: nowrap; overflow: scroll;
+    scrollbar-width: thin;
+    align-self: center;
+    text-align: left;
+    overflow: auto;
+    overflow-y: hidden;
+    display: inline;
+}
+
+.newLinkSpot {
+    font-size: 20px;
+    color: hsl(180, 66%, 49%);
+    align-self: center;
+    text-align: right;
+    margin-left: 30px;
+}
+
+.copyBtn {
+    align-self: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-radius: 10px;
+    background-color: hsl(180, 66%, 49%);
+    height: 45px;
+    width: 120px;
+}
+
+.copyBtn:hover {
+    background-color: hsl(180, 58%, 66%);
+    cursor: pointer;
+}
+
+
+
+.copied {
+    background-color: hsl(257, 27%, 26%) !important;
+}
+
